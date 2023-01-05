@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/prod_card_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+    <TextView
+        android:id="@+id/prod_card_name"
+        android:layout_width="375dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/prod_card_img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:textColor="#636060"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currency_holder"
+        android:layout_width="64dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/prod_card_name"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="165dp"
+        android:layout_toStartOf="@+id/prod_id"
+        android:text="TND. "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prod_card_price"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/currency_holder"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="64dp"
+        android:layout_toStartOf="@+id/prod_id"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameHolder"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
+        android:layout_alignBottom="@+id/prod_card_buy"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="146dp"
+        android:text="Sold by :"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prod_shop_name"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/phoneN"
+        android:layout_alignStart="@+id/prod_card_price"
+        android:layout_marginStart="-78dp"
+        android:layout_marginBottom="48dp"
+        android:layout_toEndOf="@id/nameHolder"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/prod_id"
+        android:layout_width="67dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/prod_card_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-15dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prod_idHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prod_card_name"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="4dp"
+        android:layout_toStartOf="@id/prod_id"
+        android:text="Product ID :"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/shop_id"
+        android:layout_width="67dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/prod_card_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="-10dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prod_shop_id"
+        android:layout_width="62dp"
+        android:layout_height="23dp"
+        android:layout_below="@+id/prod_card_name"
+        android:layout_alignBottom="@+id/prod_card_buy"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="-62dp"
+        android:layout_marginBottom="112dp"
+        android:layout_toStartOf="@+id/prod_idHolder"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:text="Discount :"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/phoneN"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/prod_card_cart"
+        android:layout_marginEnd="-33dp"
+        android:layout_marginBottom="131dp"
+        android:layout_toStartOf="@+id/prod_shop_id"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nameHolder"
+        android:layout_alignBottom="@+id/prod_card_buy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginBottom="73dp"
+        android:text="Phone number :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/prod_card_buy"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prod_card_img"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttons"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Buy Now"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/prod_card_cart"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prod_card_img"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Bach to the main page"
+        android:textAllCaps="true" />
+
+
+</RelativeLayout>

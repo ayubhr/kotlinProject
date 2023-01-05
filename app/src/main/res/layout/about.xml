@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/acc_info_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="About-Us"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:background="@color/colorPrimary">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="438dp"
+        android:layout_above="@+id/redirect_main"
+        android:layout_below="@+id/acc_info_header"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="33dp"
+        android:textSize="30dp"
+        android:text="BoomAndDeal est une application mobile de petites annonces gratuites en Tunisie, vous pouvez trouver et négocier avec les vendeurs et les acheteurs de votre région en un seul clic." />
+
+    <Button
+        android:background="@drawable/buttons"
+        android:id="@+id/redirect_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Back to the main page"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="My Account"
+        android:id="@+id/account_info"/>
+
+    <item
+        android:title="Contact for help"
+        android:id="@+id/help"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"/>
+
+    <item
+        android:title="Notifications"
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="always"/>
+
+</menu>

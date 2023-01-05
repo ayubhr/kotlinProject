@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619156329205",
+    "project_id": "boomanddeal-940ea",
+    "storage_bucket": "boomanddeal-940ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619156329205:android:bebb4168719e9051d06bbc",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619156329205-nckk6kbunv82as9avq3uvv6npugghpr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKf1Ir2hM5RVY5qmyJbim0vBcGcVTy2w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619156329205-nckk6kbunv82as9avq3uvv6npugghpr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
